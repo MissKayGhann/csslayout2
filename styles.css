@@ -1,0 +1,47 @@
+/* css reset */
+*,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    }
+
+/* left , top, bottom, right, width and height */
+
+
+.flexbox-item {
+    margin: 10px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.Header {
+    min-width: 100px;
+    height: 50px;
+}
+
+.Nav {
+    min-width: 100px;
+}
+
+.group-content {
+    display: flex;
+    height: 500px;
+}
+
+.ConLeft {
+  flex:1
+}
+
+.Contents {
+  flex:2
+}
+
+.ConRight {
+  flex:1
+}
+
+.Footer {
+    min-width: 100px;
+}
